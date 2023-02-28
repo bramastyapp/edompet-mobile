@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_dashboard"
+        android:icon="@drawable/home"
+        android:title=""/>
+
+    <item
+        android:id="@+id/menu_wallet"
+        android:icon="@drawable/wallet"
+        android:title=""/>
+
+    <item
+        android:id="@+id/menu_qrcode"
+        android:icon="@drawable/ic_baseline_qr_code_scanner_24"
+        android:title=""/>
+
+    <item
+        android:id="@+id/menu_investment"
+        android:icon="@drawable/invest"
+        android:title=""/>
+
+    <item
+        android:id="@+id/menu_account"
+        android:icon="@drawable/account"
+        android:title=""/>
+
+
+</menu>

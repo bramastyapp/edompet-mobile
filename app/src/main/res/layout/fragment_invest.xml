@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="414dp"
+        android:layout_height="199dp"
+        android:src="@drawable/group_23"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.695"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.032" />
+
+    <TextView
+        android:layout_width="171dp"
+        android:layout_height="37dp"
+        android:text="Investasi kamu"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.129" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="171dp"
+        android:layout_height="37dp"
+        android:text="Akbar"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.358" />
+
+    <TextView
+        android:id="@+id/saldo_invest"
+        android:layout_width="171dp"
+        android:layout_height="37dp"
+        android:text="Rp. 320,436,600"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.629" />
+
+    <TextView
+        android:id="@+id/saham"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sahamku"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.022" />
+
+
+    <TextView
+        android:id="@+id/lihat_saham"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selengkapnya >>"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.113" />
+
+    <ImageView
+        android:layout_width="11dp"
+        android:layout_height="40dp"
+        android:src="@drawable/rectangle_5"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.212" />
+
+    <TextView
+        android:id="@+id/tren_harga1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- 2,3%"
+        android:textColor="@color/red"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.199" />
+
+    <TextView
+        android:id="@+id/detail_saham1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bank Central Asia (BCA)"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.199" />
+
+
+    <TextView
+        android:id="@+id/aset_saham1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp. 50,232,242"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.191"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.256" />
+
+    <ImageView
+        android:layout_width="11dp"
+        android:layout_height="40dp"
+        android:src="@drawable/rectangle_5"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.42" />
+
+    <TextView
+        android:id="@+id/tren_harga2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+ 3,7%"
+        android:textColor="@color/green"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.396" />
+
+    <TextView
+        android:id="@+id/detail_saham2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alam Sutra (ASRI)"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.206"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.396" />
+
+    <TextView
+        android:id="@+id/aset_saham2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp. 45.452.730"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.193"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.452" />
+
+    <TextView
+        android:id="@+id/rekomendasi_saham"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rekomendasi"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.575" />
+
+
+    <TextView
+        android:id="@+id/lihat_rekomendasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selengkapnya >>"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.644" />
+
+    <TextView
+        android:id="@+id/rekomendasi1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ace Hardware"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.741" />
+
+
+    <TextView
+        android:id="@+id/tren_rekomendasi1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+ 4,67%"
+        android:textColor="@color/green"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.741" />
+
+
+    <TextView
+        android:id="@+id/rekomendasi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Astra Internasional"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.211"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.84" />
+
+    <TextView
+        android:id="@+id/tren_rekomendasi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+ 2,14%"
+        android:textColor="@color/green"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.84" />
+
+    <TextView
+        android:id="@+id/rekomendasi3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xl Axiata"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.177"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.927" />
+
+    <TextView
+        android:id="@+id/tren_rekomendasi3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- 1,63%"
+        android:textColor="@color/red"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.927" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/yellow"
+        app:menu="@menu/bottom_menu"
+        app:itemIconTint="@color/grey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" >
+
+        <FrameLayout
+            android:id="@+id/container_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/bottom_navigation_menu" />
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

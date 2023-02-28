@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="414dp"
+        android:layout_height="199dp"
+        android:src="@drawable/group_23"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.695"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.032" />
+
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="171dp"
+        android:layout_height="37dp"
+        android:text="Akbar"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.129" />
+
+    <TextView
+        android:id="@+id/saldo_user"
+        android:layout_width="171dp"
+        android:layout_height="37dp"
+        android:text="Rp. 10,345,600"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.425" />
+
+    <TextView
+        android:id="@+id/promo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Promo"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.022" />
+
+
+    <ImageView
+        android:layout_width="11dp"
+        android:layout_height="40dp"
+        android:src="@drawable/rectangle_5"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.212" />
+
+    <TextView
+        android:id="@+id/tgl_promo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="03 maret 2021"
+        android:textColor="@color/red"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.132" />
+
+    <TextView
+        android:id="@+id/namapromo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cashback 30%"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.184"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <TextView
+        android:id="@+id/detail_promo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Setiap pembayaran listrik"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.233"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.257" />
+
+
+    <ImageView
+        android:layout_width="11dp"
+        android:layout_height="40dp"
+        android:src="@drawable/rectangle_5"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.42" />
+
+    <TextView
+        android:id="@+id/tgl_promo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="21 februari 2021"
+        android:textColor="@color/red"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.326" />
+
+    <TextView
+        android:id="@+id/namapromo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beli 2 Gratis 1"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.183"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.396" />
+
+    <TextView
+        android:id="@+id/detail_promo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Setiap pembelian minuman"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.244"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.452" />
+
+    <TextView
+        android:id="@+id/history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="History"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.575" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/group_7"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/history"
+        app:layout_constraintVertical_bias="0.141" />
+
+    <TextView
+        android:id="@+id/nama_history1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pemasukan"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.253"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.692" />
+
+    <TextView
+        android:id="@+id/detail_history1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3,000,0000"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.953"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.69" />
+
+    <ImageView
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:src="@drawable/group_8"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/history"
+        app:layout_constraintVertical_bias="0.446" />
+
+    <TextView
+        android:id="@+id/nama_history2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bayar Listrik"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.257"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.795" />
+
+    <TextView
+        android:id="@+id/detail_history2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100,000"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.795" />
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cart_1"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/history"
+        app:layout_constraintVertical_bias="0.755" />
+
+    <TextView
+        android:id="@+id/nama_history3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Belanja Bulanan"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.275"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.905" />
+
+    <TextView
+        android:id="@+id/detail_history3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="500,000"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.905" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/yellow"
+        app:menu="@menu/bottom_menu"
+        app:itemIconTint="@color/grey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" >
+
+        <FrameLayout
+            android:id="@+id/container_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/bottom_navigation_menu" />
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
